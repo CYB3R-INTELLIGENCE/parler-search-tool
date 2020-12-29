@@ -228,9 +228,6 @@ def profile_to_profile():
 def exact_profile_search():
     try:
         username = ("site:parler.com/profile/")
-        time.sleep(0.5)
-        print ("\033[1;91m[!] Please use quotes for a more effcient search \033[0m\n")
-        time.sleep(0.5)
         username_input = input("\n[+] Username: ")
         dork = username + username_input
         print ("\n ")      
